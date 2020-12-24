@@ -20,7 +20,13 @@ export async function getSitemap(link: string): Promise<string[]> {
   return urls;
 }
 
+export async function visitSitemap(link: string): Promise<void> {
+  const links: string[] = await getSitemap(link);
+  await visit(links);
+}
+
 export default {
   visit,
   getSitemap,
+  visitSitemap,
 };
