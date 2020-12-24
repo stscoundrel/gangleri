@@ -1,7 +1,7 @@
 import fetchMock from 'jest-fetch-mock';
 import gangleri from '../src/gangleri';
 
-describe('Gangleri tests', () => {
+describe('Visit test', () => {
   test('Visits array of urls.', async () => {
     const urls = [
       'https://vercel.com/',
