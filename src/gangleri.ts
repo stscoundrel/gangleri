@@ -1,9 +1,13 @@
-import fetch from 'node-fetch';
+import fetch, { Response } from 'node-fetch';
 
 export async function visit(links: string[]): Promise<void> {
-  links.forEach(async (link) => {
-    await fetch(link);
+  const visitPromises: Promise<Response>[] = [];
+
+  links.forEach(async (link: string) => {
+    visitPromises.push(fetch(link));
   });
+
+  await Promise.all(visitPromises);
 }
 
 export default {
