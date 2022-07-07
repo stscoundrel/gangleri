@@ -39,6 +39,10 @@ await gangleri.visit(urls, 2)
 
 ```
 
+#### Example Next.js / Vercel projects using Gangleri:
+- [Old Icelandic Dictionary](https://github.com/stscoundrel/gangleri-zoega)
+- [Old Norse Dictionary](https://github.com/stscoundrel/gangleri-cleasby-vigfusson)
+
 
 #### What's in the name?
 
