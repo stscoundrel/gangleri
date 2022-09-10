@@ -1346,9 +1346,9 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@supercharge/promise-pool@^2.0.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@supercharge/promise-pool/-/promise-pool-2.3.0.tgz#9528b11d69a63ff2a342d404afb13cd011c9651a"
-  integrity sha512-KLf3JBWW4JymplvT/c5JCZhc4KrNE9EBf15FPjvklQiGcoUczSLInpV23iV5dITnvktJlwQ5xq08wfNwBk71Rg==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@supercharge/promise-pool/-/promise-pool-2.3.2.tgz#6366894a7e7bc699bb65e58d8c828113729cf481"
+  integrity sha512-f5+C7zv+QQivcUO1FH5lXi7GcuJ3CFuJF3Eg06iArhUs5ma0szCLEQwIY4+VQyh7m/RLVZdzvr4E4ZDnLe9MNg==
 
 "@tootallnate/once@1":
   version "1.1.2"
